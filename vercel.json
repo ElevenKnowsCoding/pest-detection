@@ -11,9 +11,5 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ],
-  "env": {
-    "AUTH_KEY": "@auth_key",
-    "SECRET_KEY": "@secret_key"
-  }
+  ]
 }

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: pest-detection
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: AUTH_KEY
+        sync: false
+      - key: SECRET_KEY
+        sync: false

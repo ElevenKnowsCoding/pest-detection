@@ -1,7 +1,4 @@
 Flask
-opencv-python
-numpy
 Pillow
 Werkzeug
 python-dotenv
-gunicorn
